@@ -1240,6 +1240,17 @@
       .team-grid {
         grid-template-columns: 1fr;
         gap: 1.2rem;
+        justify-items: center; /* Center cards horizontally */
+      }
+      .team-card {
+        margin-left: auto;
+        margin-right: auto;
+        width: 90vw; /* or max-width: 320px; */
+      }
+      .team-img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
       }
     }
     /* BLOG SECTION */
@@ -1446,7 +1457,8 @@
         display: flex;
         justify-content: center;
         gap: 1.2rem;
-        margin-top: 1rem;
+        margin-top: 10px;
+        margin-bottom: 10px;
       }
       .blog-section {
         padding: 1.2rem 0.5rem 0.7rem 0.5rem;
